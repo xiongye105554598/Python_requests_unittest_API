@@ -1,0 +1,104 @@
+2020-07-16 16:35:35,809 - root - INFO - ********************TEST START********************
+2020-07-16 16:35:36,077 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:44,122 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:35:44,154 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:45,308 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:35:45,324 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:46,116 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:35:46,129 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:46,843 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:35:46,847 - root - INFO - ---F1 获取设备任务信息 测试开始---
+2020-07-16 16:35:46,850 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:47,546 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:35:47,550 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:48,503 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "GET /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job?jobid=dFPBHUM HTTP/1.1" 200 None
+2020-07-16 16:35:48,507 - root - INFO - ---F1 获取设备任务信息 测试结束---
+2020-07-16 16:35:48,507 - root - INFO - ---F1 jobid参数为空 测试开始---
+2020-07-16 16:35:48,510 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:35:49,201 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:35:50,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:03,678 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "GET /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job?jobid= HTTP/1.1" 400 None
+2020-07-16 16:36:03,680 - root - INFO - ---F1 jobid参数为空 测试结束---
+2020-07-16 16:36:03,681 - root - INFO - ---F1 jobid参数错误 测试开始---
+2020-07-16 16:36:03,683 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:04,459 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:04,463 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:05,133 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "GET /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job?jobid=cuowu HTTP/1.1" 400 None
+2020-07-16 16:36:05,136 - root - INFO - ---F1 jobid参数错误 测试结束---
+2020-07-16 16:36:05,136 - root - INFO - ---F1 deviceid参数错误 测试开始---
+2020-07-16 16:36:05,139 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:06,110 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:06,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:07,350 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "GET /aiot/v1/feature/cuowu/job?jobid=dFPBHUM HTTP/1.1" 400 None
+2020-07-16 16:36:07,352 - root - INFO - ---F1 deviceid参数错误 测试结束---
+2020-07-16 16:36:07,352 - root - INFO - ---F2 创建设备任务信息 测试开始---
+2020-07-16 16:36:07,355 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:08,138 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:08,141 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:09,392 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 200 None
+2020-07-16 16:36:09,395 - root - INFO - ---F2 创建设备任务信息 测试结束---
+2020-07-16 16:36:09,396 - root - INFO - ---F2 参数为空 测试开始---
+2020-07-16 16:36:09,400 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:46,445 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:47,989 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:49,966 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 400 None
+2020-07-16 16:36:49,968 - root - INFO - ---F2 参数为空 测试结束---
+2020-07-16 16:36:49,969 - root - INFO - ---F2 参数错误 测试开始---
+2020-07-16 16:36:49,972 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:51,502 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:51,507 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:55,224 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 400 None
+2020-07-16 16:36:55,228 - root - INFO - ---F2 参数错误 测试结束---
+2020-07-16 16:36:55,228 - root - INFO - ---F2 deviceid不存在 测试开始---
+2020-07-16 16:36:55,234 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:56,410 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:56,420 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:57,486 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aiot/v1/feature/cuowu/job HTTP/1.1" 400 None
+2020-07-16 16:36:57,489 - root - INFO - ---F2 deviceid不存在 测试结束---
+2020-07-16 16:36:57,489 - root - INFO - ---F3 更新设备名称 测试开始---
+2020-07-16 16:36:57,493 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:58,511 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:36:58,520 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:36:59,614 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "PUT /aiot/v1/assets/device/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95 HTTP/1.1" 200 None
+2020-07-16 16:36:59,619 - root - INFO - ---F3 更新设备名称 测试结束---
+2020-07-16 16:36:59,620 - root - INFO - ---F3 displayname重复 测试开始---
+2020-07-16 16:36:59,627 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:00,298 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:00,303 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:01,015 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "PUT /aiot/v1/assets/device/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95 HTTP/1.1" 400 None
+2020-07-16 16:37:01,018 - root - INFO - ---F3 displayname重复 测试结束---
+2020-07-16 16:37:01,019 - root - INFO - ---F3 displayname为空 测试开始---
+2020-07-16 16:37:01,023 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:02,797 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:02,801 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:03,491 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "PUT /aiot/v1/assets/device/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95 HTTP/1.1" 400 None
+2020-07-16 16:37:03,493 - root - INFO - ---F3 displayname为空 测试结束---
+2020-07-16 16:37:03,493 - root - INFO - ---F3 deviceid不存在 测试开始---
+2020-07-16 16:37:03,496 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:04,168 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:04,171 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:05,203 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "PUT /aiot/v1/assets/device/cuowu HTTP/1.1" 403 None
+2020-07-16 16:37:05,207 - root - INFO - ---F3 deviceid不存在 测试结束---
+2020-07-16 16:37:05,207 - root - INFO - ---F4 删除设备任务信息 测试开始---
+2020-07-16 16:37:05,213 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:05,911 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:05,930 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:06,840 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 200 None
+2020-07-16 16:37:11,848 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:12,587 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:12,592 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:13,986 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "DELETE /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 200 None
+2020-07-16 16:37:13,990 - root - INFO - ---F4 删除设备任务信息 测试结束---
+2020-07-16 16:37:13,991 - root - INFO - ---F4 jobid参数为空 测试开始---
+2020-07-16 16:37:13,998 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:14,740 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:14,746 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:15,465 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "DELETE /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 400 None
+2020-07-16 16:37:15,469 - root - INFO - ---F4 jobid参数为空 测试结束---
+2020-07-16 16:37:15,469 - root - INFO - ---F4 jobid参数错误 测试开始---
+2020-07-16 16:37:15,473 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:16,200 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-07-16 16:37:16,204 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-07-16 16:37:20,013 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "DELETE /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job HTTP/1.1" 400 None
+2020-07-16 16:37:20,021 - root - INFO - ---F4 jobid参数错误 测试结束---
+2020-07-16 16:37:20,026 - root - INFO - *********************TEST END*********************

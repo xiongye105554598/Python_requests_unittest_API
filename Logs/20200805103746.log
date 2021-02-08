@@ -1,0 +1,6 @@
+2020-08-05 10:37:46,572 - root - INFO - ********************TEST START********************
+2020-08-05 10:37:46,695 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:37:56,055 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:38:06,036 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:38:15,983 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:38:26,006 - root - INFO - *********************TEST END*********************

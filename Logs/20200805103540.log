@@ -1,0 +1,50 @@
+2020-08-05 10:35:40,999 - root - INFO - ********************TEST START********************
+2020-08-05 10:35:41,234 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:35:45,092 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-08-05 10:35:45,145 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:35:48,836 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-08-05 10:35:48,853 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:35:53,905 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-08-05 10:35:54,617 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:35:57,860 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-08-05 10:35:58,424 - root - INFO - ---F1 获取设备任务信息 测试开始---
+2020-08-05 10:35:58,434 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:36:01,925 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "POST /aims/v1/auth/users/login HTTP/1.1" 200 None
+2020-08-05 10:36:01,944 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:36:06,864 - urllib3.connectionpool - DEBUG - https://g700qa1-api.azure-api.net:443 "GET /aiot/v1/feature/5AA02A8FD58A15470D1D05C1E68AC2E5977E9B95/job?jobid=dFPBHUM HTTP/1.1" 400 None
+2020-08-05 10:36:06,866 - root - INFO - ---F1 获取设备任务信息 测试结束---
+2020-08-05 10:36:06,867 - root - INFO - ---F1 jobid参数为空 测试开始---
+2020-08-05 10:36:06,871 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:45:41,238 - root - INFO - ---F1 jobid参数为空 测试结束---
+2020-08-05 10:45:41,250 - root - INFO - ---F1 jobid参数错误 测试开始---
+2020-08-05 10:45:41,257 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:45:51,958 - root - INFO - ---F1 jobid参数错误 测试结束---
+2020-08-05 10:45:51,960 - root - INFO - ---F1 deviceid参数错误 测试开始---
+2020-08-05 10:45:51,963 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:46:01,954 - root - INFO - ---F1 deviceid参数错误 测试结束---
+2020-08-05 10:46:01,956 - root - INFO - ---F2 创建设备任务信息 测试开始---
+2020-08-05 10:46:01,963 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:46:11,954 - root - INFO - ---F2 创建设备任务信息 测试结束---
+2020-08-05 10:46:11,956 - root - INFO - ---F2 参数为空 测试开始---
+2020-08-05 10:46:11,959 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:46:21,959 - root - INFO - ---F2 参数为空 测试结束---
+2020-08-05 10:46:21,963 - root - INFO - ---F2 参数错误 测试开始---
+2020-08-05 10:46:21,970 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:46:31,956 - root - INFO - ---F2 参数错误 测试结束---
+2020-08-05 10:46:31,957 - root - INFO - ---F2 deviceid不存在 测试开始---
+2020-08-05 10:46:31,961 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:46:41,957 - root - INFO - ---F2 deviceid不存在 测试结束---
+2020-08-05 10:46:41,959 - root - INFO - ---F3 更新设备名称 测试开始---
+2020-08-05 10:46:41,962 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:46:51,953 - root - INFO - ---F3 更新设备名称 测试结束---
+2020-08-05 10:46:51,955 - root - INFO - ---F3 displayname重复 测试开始---
+2020-08-05 10:46:51,958 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:47:01,955 - root - INFO - ---F3 displayname重复 测试结束---
+2020-08-05 10:47:01,957 - root - INFO - ---F3 displayname为空 测试开始---
+2020-08-05 10:47:01,960 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:47:11,957 - root - INFO - ---F3 displayname为空 测试结束---
+2020-08-05 10:47:11,959 - root - INFO - ---F3 deviceid不存在 测试开始---
+2020-08-05 10:47:11,963 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
+2020-08-05 10:47:21,960 - root - INFO - ---F3 deviceid不存在 测试结束---
+2020-08-05 10:47:21,962 - root - INFO - ---F4 删除设备任务信息 测试开始---
+2020-08-05 10:47:21,966 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): g700qa1-api.azure-api.net:443
